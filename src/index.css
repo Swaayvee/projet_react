@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "neonfocus";
+  default: true;
+  color-scheme: dark;
+  --color-primary: #6366f1;
+  --color-secondary: #22c55e;
+  --color-accent: #a855f7;
+  --color-neutral: #0b1220;
+  --color-base-100: #0f172a;
+  --color-base-200: #111c33;
+  --color-base-300: #1e293b;
+  --color-info: #38bdf8;
+  --color-success: #22c55e;
+  --color-warning: #facc15;
+  --color-error: #ef4444;
+  --color-base-content: #ffffff;
+}
+
+@plugin "daisyui/theme" {
+  name: "gaming";
+  color-scheme: dark;
+  --color-primary: #7c3aed;
+  --color-secondary: #00ff9f;
+  --color-accent: #ff3d71;
+  --color-neutral: #0b1220;
+  --color-base-100: #0a0f1f;
+  --color-base-200: #12182b;
+  --color-base-300: #1a2238;
+  --color-info: #3b82f6;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  --color-base-content: #ffffff;
+}
+
+@plugin "daisyui/theme" {
+  name: "music";
+  color-scheme: dark;
+  --color-primary: #ec4899;
+  --color-secondary: #14b8a6;
+  --color-accent: #f97316;
+  --color-neutral: #0b1220;
+  --color-base-100: #0f172a;
+  --color-base-200: #1e293b;
+  --color-base-300: #334155;
+  --color-info: #0ea5e9;
+  --color-success: #22c55e;
+  --color-warning: #eab308;
+  --color-error: #e11d48;
+  --color-base-content: #ffffff;
+}
