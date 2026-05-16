@@ -5,6 +5,7 @@ function Progress({
   width = "md",
   height = "md",
   value = 0,
+  max = 100,
   className = "",
 }) {
   const widths = {
@@ -18,7 +19,7 @@ function Progress({
     md: "h-2",
     lg: "h-4",
   };
-  const safeValue = Math.min(100, Math.max(0, value));
+  const safeValue = Math.min(max, Math.max(0, value));
 
   const classes = [
     "progress",
@@ -31,7 +32,7 @@ function Progress({
     .join(" ");
 
   return (
-    <progress className={classes} max={100} value={safeValue} />
+    <progress className={classes} max={max} value={safeValue} />
   );
 }
 

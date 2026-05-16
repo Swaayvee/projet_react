@@ -37,6 +37,7 @@ export const BUTTON_VARIANTS = {
   ghost: "btn-ghost",
   link: "btn-link",
   neutral: "btn-neutral",
+  clear: "bg-transparent border-transparent shadow-none hover:bg-transparent active:bg-transparent focus:bg-transparent focus:outline-none",
 };
 
 export const BUTTON_SIZES = {
@@ -49,6 +50,12 @@ export const BUTTON_SIZES = {
 export const BUTTON_STYLES = {
   solid: "",
   outline: "btn-outline",
+};
+
+export const BUTTON_SHAPES = {
+  normal: "",
+  circle: "btn-circle",
+  square: "btn-square",
 };
 
 /* =========================

@@ -3,6 +3,7 @@ import {
   BUTTON_SIZES,
   BUTTON_STYLES,
   UI_STATES,
+  BUTTON_SHAPES,
 } from "./../../constants/ui";
 
 export default function Button({
@@ -11,6 +12,7 @@ export default function Button({
   size = "md",
   styleType = "solid",
   state = "normal",
+  shape = "normal",
   onClick,
   className = "",
 }) {
@@ -21,6 +23,7 @@ export default function Button({
     BUTTON_VARIANTS[variant] ?? BUTTON_VARIANTS.primary,
     BUTTON_SIZES[size] ?? BUTTON_SIZES.md,
     BUTTON_STYLES[styleType] ?? "",
+    BUTTON_SHAPES[shape] ?? "",
     className ?? "",
     UI_STATES[state] ?? "",
   ]
